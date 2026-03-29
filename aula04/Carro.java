@@ -3,6 +3,7 @@ package aula04;
 //criar a classe
 public class Carro {
     
+    //atributos
     String cor ;
     String modelo ;
     int ano ;
