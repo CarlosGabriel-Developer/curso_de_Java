@@ -10,7 +10,11 @@ public class Main {
 
         conta.depositar(5000);
         conta.depositar(400);
+
+        conta.saque(2400);
+
         
+
   
     }
 

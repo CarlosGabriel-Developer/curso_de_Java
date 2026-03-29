@@ -11,14 +11,14 @@ public class ContaBancaria {
     public void depositar(double valor) {
         if (valor > 0){
             saldo += valor;
-            System.out.printf("Deposíto realizado,No valor de %.2f%n",valor);
+            System.out.printf("Deposíto realizado,No valor de R$%.2f%n",valor);
         }
     }    
 
     public void saque (double valor) { 
         if (valor > 0 && valor <= saldo){
             saldo -= valor;
-            System.out.printf("Saque realizado,Saldo atual da sua conta é de %d%n",saldo);
+            System.out.printf("Saque realizado,Saldo atual da sua conta é de R$%.2f%n",saldo);
         } else { 
             System.out.printf("Saque invalido%n");
         }
