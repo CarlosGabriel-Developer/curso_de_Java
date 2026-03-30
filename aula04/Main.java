@@ -6,6 +6,7 @@ public class Main {
 
         //criando o objeto
         Carro opala = new Carro ("Marrom","SS",1978,0f);
+        
         Carro ford = new Carro("azul", "Mustang", 1977, null);
         
 
