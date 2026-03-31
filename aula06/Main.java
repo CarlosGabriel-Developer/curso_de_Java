@@ -4,15 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Livro livro1 = new Livro("TESS", "CG", 1990);
+        Produto porduto1 = new Produto("Sabao em Po", 5.80, 200);
 
-        System.out.println(livro1.getAutor());
-        System.out.println(livro1.getTitulo());
-        System.out.println(livro1.getAnoPublicacao());
-
-        
-
-        
+        System.out.println(porduto1.getPreco());
 
         
     }
