@@ -11,7 +11,7 @@ public class Main {
     System.out.println("Digite um numero :");
     Integer num = teclado.nextInt();
 
-    System.out.printf("O seu numero é o %d",num);
+    System.out.printf("O numero informado foi [ %d ]",num);
 
     teclado.close();
 
