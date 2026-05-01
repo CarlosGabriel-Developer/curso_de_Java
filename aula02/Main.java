@@ -1,32 +1,20 @@
 package aula02;
 
+import java.util.Scanner;
+
 public class Main {
+    
     public static void main(String[] args) {
 
-    /** 
-     * int idade = 3;
-        float salario = 1825.54f;
-        char letra = "G";
-        boolean casado = false;
+    Scanner teclado = new Scanner(System.in);
 
+    System.out.println("Digite um numero :");
+    Integer num = teclado.nextInt();
 
-        int idadetypercast = (int) 3;
-        float salariotypercast = (float) 1825.54;
-        char letratypercast = (char) "G";
-        boolean casadotypercast = (boolean) false;
+    System.out.printf("O seu numero é o %d",num);
 
+    teclado.close();
 
-        // Criando um Objeto
-        Integer idadewrapper = new Integer(3) ;
-        Float salariowrapper = new Float(1825.54);
-        Character letrawrapper = new Character("G");
-        Boolean casadowrapper = new Boolean(false);*/
-
-    String nome = "Gabriel";
-    float nota  = 2.5f;
-
-    System.out.format("A nota do %s é %.1f \n",nome,nota);
-
-    
     }
+
 }

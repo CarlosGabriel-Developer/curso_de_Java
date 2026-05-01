@@ -2,20 +2,11 @@ package aula01;
 
 public class Main {
 
-    // Atributos
+    public static void main(String[] args) {
+        
+        String mundo  = "Ola mundo";
 
-    String nome;
-
-    int idade;
-
- 
-
-    // Métodos
-
-    void apresentar() {
-
-        System.out.println("Meu nome é " + nome + " e tenho " + idade + " anos.");
-
+        System.out.println(mundo);
     }
 
 }
