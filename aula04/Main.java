@@ -24,6 +24,7 @@ public class Main {
 
     System.out.printf("A media das suas notas é de : [ %.2f ] ",media_notas);
 
+    javascan.close();
 
 
 
